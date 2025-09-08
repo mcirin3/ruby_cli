@@ -2,7 +2,7 @@
 ---
 
 ## `functional_spec.md`
-```markdown
+
 # Functional Specification — Lutong Bahay CLI
 
 ## Introduction
@@ -43,7 +43,7 @@ Lutong Bahay CLI is a terminal application that lets users browse Filipino recip
 ## Acceptance Criteria
 - Running `bin/lutong_bahay` shows a recipe list.
 - Selecting a recipe shows ingredients and step 1.
-- `next`/`prev` navigate steps; bounds are handled gracefully.
+- `next`/`prev` navigate steps.
 - `search` filters list by name/tags.
 - `list` returns to the recipe menu.
 - `exit` quits with a friendly message.
