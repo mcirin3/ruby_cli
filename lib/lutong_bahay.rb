@@ -61,7 +61,7 @@ module LutongBahay
     end
 
     def print_menu
-      clear_screen
+      # clear_screen
       @out.puts "Available recipes:"
       @recipes.each_with_index do |r, i|
         @out.puts "  #{i + 1}. #{r.name} - [#{r.tags.join(', ')}]"
@@ -119,7 +119,7 @@ module LutongBahay
 
     # ------- Step mode -------
     def show_recipe_header
-      clear_screen
+      # clear_screen
       @out.puts "\n=== #{@current_recipe.name} ==="
     end
 

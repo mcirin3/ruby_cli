@@ -27,6 +27,6 @@ class TestCLINavigation < Minitest::Test
 
     out = output.string
     assert_includes out, "Search results:"
-    assert_includes out, "Unknown command" # because 42 is not a valid index for the small list
+    assert_includes out, "Invalid number" # because 42 is not a valid index for the small list
   end
 end
