@@ -20,5 +20,5 @@ A friendly command-line app to browse and follow **Filipino recipes** step-by-st
 git clone https://github.com/yourname/lutong-bahay-cli.git
 cd lutong-bahay-cli
 bundle install  # (optional if you add a Gemfile)
-chmod +x bin/lutong_bahay
-bin/lutong_bahay
+chmod +x bin/server
+bin/server
